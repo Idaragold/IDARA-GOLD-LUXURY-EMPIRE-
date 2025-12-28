@@ -209,30 +209,45 @@ index.httml.<!DOCTYPE html>
         <div class="slogan">
             "Unleash Your Golden Glow"
         </div>
-        <button class="btn">Shop Now</button>
-        <button class="btn">Book Consultation</button>
+<button class="btn" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'});">Shop Now</button>
+<button class="btn" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'});">Book Consultation</button>
     </section>
 
-    <section class="collections">
-        <h2>Featured Collections</h2>
-        <div class="collection-grid">
-            <div class="collection-item">
-                <img src="wig-collection.jpg" alt="Premium Wigs">
-                <h3>Signature Wigs</h3>
-                <p>Luxury human hair & lace front masterpieces</p>
-            </div>
-            <div class="collection-item">
-                <img src="lashes-collection.jpg" alt="Lashes">
-                <h3>Dramatic Lashes</h3>
-                <p>Volume • Strip • Magnetic • Custom</p>
-            </div>
-            <div class="collection-item">
-                <img src="makeup-collection.jpg" alt="Cosmetics">
-                <h3>Golden Glow Cosmetics</h3>
-                <p>Foundation • Lip • Eye • Skincare</p>
-            </div>
+    <section class="collections" id="portfolio">
+    <h2>Portfolio & Products</h2>
+    <div class="collection-grid">
+        <div class="collection-item">
+            <img src="https://imageio.forbes.com/specials-images/imageserve/655bb931a3415950994a6fce/0x0.jpg?format=jpg&crop=1125,632,x0,y12,safe&height=900&width=1600&fit=bounds" alt="Signature Lace Wig on Model">
+            <h3>Signature Lace Wigs</h3>
+            <p>Luxury human hair & lace front masterpieces</p>
         </div>
-    </section>
+        <div class="collection-item">
+            <img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/126149e6-6b34-4dce-b148-0ec233b26f31.__CR0,0,600,450_PT0_SX600_V1___.jpg" alt="Body Wave HD Lace Wig">
+            <h3>Body Wave Lace Front</h3>
+            <p>Pre-plucked natural hairline perfection</p>
+        </div>
+        <div class="collection-item">
+            <img src="https://www.lashify.com/cdn/shop/articles/Volume_Lash_0ba55b67-afdb-4ba8-8392-f69ea5da371b.jpg?crop=center&height=1024&v=1744964657&width=1024" alt="Dramatic Volume Lashes Close Up">
+            <h3>Dramatic Volume Lashes</h3>
+            <p>Volume • Strip • Magnetic • Custom extensions</p>
+        </div>
+        <div class="collection-item">
+            <img src="https://media.allure.com/photos/642c6322bc0c2e5c305b381f/16:9/w_2992,h_1683,c_limit/gold-makeup-looks.jpg" alt="Golden Glow Makeup Look">
+            <h3>Golden Glow Cosmetics</h3>
+            <p>Foundation • Lip • Eye • Luxury Skincare</p>
+        </div>
+        <div class="collection-item">
+            <img src="https://image.made-in-china.com/365f3j00EtnvlPVsCCkL/Lace-Front-Wig-Vendoes-for-Black-Women-Frontal-Human-Hair-Wig-Ocean-Wave-Bob-Wigs.webp" alt="Ocean Wave Bob Wig">
+            <h3>Ocean Wave Bob</h3>
+            <p>Custom human hair transformations</p>
+        </div>
+        <div class="collection-item">
+            <img src="https://curacoro.us/cdn/shop/articles/2.2_1.jpg?v=1620809314" alt="Volume Lash Extensions">
+            <h3>Volume Lash Extensions</h3>
+            <p>Close-up dramatic glamour</p>
+        </div>
+    </div>
+</section>
 
     <section class="categories">
         <h2>Shop by Category</h2>
